@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:latest
+FROM gitlab/gitlab-runner:v13.5.0
 MAINTAINER Phizzl <the@phizzl.it>
 
 RUN apt-get update && \
